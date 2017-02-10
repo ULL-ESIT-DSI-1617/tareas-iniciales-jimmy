@@ -1,0 +1,1 @@
+En este proyecto se describirá la instalación básica de múltiples herramientas útiles para desarrollo de proyectos (**NodeJS**, **Git**, **Pandoc**), así como una guía de **markdown**, **gh-pages** y **gitbook**, útiles para crear, la documentación de nuestros proyectos, libros, etc.
