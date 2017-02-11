@@ -1,0 +1,14 @@
+{
+  "name": "gh-pages-package",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@DiDream - Alex Jimmy Montaño",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}
