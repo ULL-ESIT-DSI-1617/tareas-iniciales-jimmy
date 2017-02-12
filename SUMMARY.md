@@ -2,11 +2,12 @@
 
 * [Introduction](README.md)
 * [Aclaraciones](aclaraciones.md)
-* Instalaciones de herramientas
+* Herramientas
     * [NodeJS](herramientas/nodejs.md)
+    * [npm](herramientas/npm.md)
     * [Git](herramientas/git.md)
+    * [Gitbook](herramientas/gitbook.md)
     * [Pandoc](herramientas/pandoc.md)
-    * [Páquetes npm](herramientas/paquetes-npm.md)
 * Markdown
     * [Definición](markdown/definicion.md)
     * [Aprendizaje](markdown/aprendizaje.md)
