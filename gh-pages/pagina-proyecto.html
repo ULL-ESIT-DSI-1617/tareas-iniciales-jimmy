@@ -118,7 +118,7 @@
                 <span>
             
                     
-                    Instalaciones de herramientas
+                    Herramientas
             
                 </span>
             
@@ -140,7 +140,20 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2" data-path="../herramientas/git.html">
+        <li class="chapter " data-level="1.3.2" data-path="../herramientas/npm.html">
+            
+                <a href="../herramientas/npm.html">
+            
+                    
+                    npm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../herramientas/git.html">
             
                 <a href="../herramientas/git.html">
             
@@ -153,12 +166,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.3" data-path="../herramientas/pandoc.html">
+        <li class="chapter " data-level="1.3.4" data-path="../herramientas/gitbook.html">
             
-                <a href="../herramientas/pandoc.html">
+                <a href="../herramientas/gitbook.html">
             
                     
-                    Pandoc
+                    Gitbook
             
                 </a>
             
@@ -166,12 +179,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.4" data-path="../herramientas/paquetes-npm.md">
+        <li class="chapter " data-level="1.3.5" data-path="../herramientas/pandoc.html">
             
-                <span>
+                <a href="../herramientas/pandoc.html">
             
                     
-                    Páquetes npm
+                    Pandoc
             
                 </a>
             
@@ -324,11 +337,11 @@
 <h4 id="procedimiento">Procedimiento</h4>
 <p>Para que Github pages funcione ser&#xE1; necesario tener una rama hu&#xE9;rfana denominada <em>gh-pages</em> en nuestro repositorio, la cual contendr&#xE1; los ficheros <em>.html</em>, <em>.css</em>, <em>.js</em> que requiera la p&#xE1;gina de nuestro proyecto. Para ello ejecutaremos <code>$ git checkout --orphan gh-pages</code> dentro de nuestro repositorio local.</p>
 <p>Si nos interesa realizar simplemente la documentaci&#xF3;n del proyecto, podemos utilizar Gitbook para obtener los ficheros en el formato necesario a partir de ficheros .md.</p>
-<p><a href="../herramientas/gitbook.md">Instalacion de Gitbook</a></p>
-<p>Esto lo hariamos con el comando <code>gitbook built</code> el cual nos crear&#xE1; los ficheros .html, .css y .js dentro del directorio book, los cuales se almacenaran en la rama gh-pages, para despues realizar el push hacia la rama remota.
-Debido a que en la rama gh-pages se almacenar&#xE1;n solo los ficheros .html, .css y .js y a que tras realizar <code>gitbook built</code> siempre se crearan los archivos dentro del directorio book. Ser&#xED;a una tarea tediosa el tener que reestructurar el repositorio cada vez que se suba alg&#xFA;n cambio, para lo cual existen herramientas como el paquete <em>gh-pages</em> que automatiza esta tarea.</p>
-<p><a href="../herramientas/paquete-gh-pages">Instalacion y configuraci&#xF3;n del paquete gh-pages</a></p>
-<p>La URL de la p&#xE1;gina web de nuestro proyecto ser&#xED;a <code>https://_username_.github.io/_nombre-repositorio_</code> donde <em>username</em> hace referencia a nuestro nombre de usuario de Github y el <em>nombre-repositorio</em> al nombre del repositorio de la rama <em>git-pages</em>.</p>
+<p><a href="../herramientas/gitbook.html">Instalaci&#xF3;n de Gitbook</a></p>
+<p>Esto lo hariamos con el comando <code>gitbook built</code> el cual nos crear&#xE1; los ficheros .html, .css y .js dentro del directorio <em>_book</em>, los cuales se almacenar&#xE1;n en la rama <em>gh-pages</em>, para despu&#xE9;s realizar el push hacia la rama remota.
+Debido a que en la rama gh-pages se almacenar&#xE1;n solo los ficheros .html, .css y .js y a que tras realizar <code>gitbook built</code> siempre se crear&#xE1;n los archivos dentro del directorio _book. Ser&#xED;a una tarea tediosa el tener que reestructurar el repositorio cada vez que se suba alg&#xFA;n cambio, para lo cual existen herramientas como el paquete <em>gh-pages</em> que automatizan esta tarea.</p>
+<p><a href="../herramientas/paquete-gh-pages">Instalaci&#xF3;n y configuraci&#xF3;n del paquete gh-pages</a></p>
+<p>La URL de la p&#xE1;gina web de nuestro proyecto ser&#xED;a https: //<em>username</em>.github.io/<em>nombre-repositorio</em> donde <em>username</em> hace referencia a nuestro nombre de usuario de Github y el <em>nombre-repositorio</em> al nombre del repositorio de la rama <em>git-pages</em>.</p>
 
                                 
                                 </section>
@@ -368,7 +381,7 @@ Debido a que en la rama gh-pages se almacenar&#xE1;n solo los ficheros .html, .c
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Página de proyecto","level":"1.5.2","depth":2,"previous":{"title":"Página personal","level":"1.5.1","depth":2,"path":"gh-pages/pagina-personal.md","ref":"gh-pages/pagina-personal.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"gh-pages/pagina-proyecto.md","mtime":"2017-02-11T19:40:54.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-11T19:48:54.248Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Página de proyecto","level":"1.5.2","depth":2,"previous":{"title":"Página personal","level":"1.5.1","depth":2,"path":"gh-pages/pagina-personal.md","ref":"gh-pages/pagina-personal.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"gh-pages/pagina-proyecto.md","mtime":"2017-02-12T01:25:34.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-12T01:22:24.221Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -376,6 +389,10 @@ Debido a que en la rama gh-pages se almacenar&#xE1;n solo los ficheros .html, .c
         
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
     
         
         <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>

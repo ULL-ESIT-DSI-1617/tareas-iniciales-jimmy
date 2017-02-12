@@ -7,10 +7,8 @@ if(mensaje_commit){
         } ,(error)=> {
         if(error) {
             console.error('Algo salió mal :(');
-            console.error(error.message);
         }else {
             console.log('gh-pages actualizado');
-
         }
     });
 }else {
