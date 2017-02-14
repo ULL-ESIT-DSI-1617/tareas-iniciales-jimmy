@@ -13,3 +13,8 @@ Tenemos dos alternativas para crear una pagina web con esta herramienta.
  Es posible cambiar la rama destinada a almacenar la información de nuestra página del proyecto. Para ello, situados en nuestro repositorio del proyecto, nos iremos a la pestaña "Settings". Una vez ahí, haremos scroll hacia abajo y veremos algo así:
 
  	![Cambiar la rama](/markdown/img/cambiar_rama.png)
+
+ Al hacer click en el desplegable, podremos ver las distintas opciones de las que disponemos, pudiendo elegir una nueva rama para alojar nuestro sitio:
+
+ 	![Desplegable](/markdown/img/desplegable.png)
+ ___
