@@ -24,10 +24,11 @@ ___
 Una vez tengamos Pandoc instalado, podemos usarlo de dos formas: especificando el código Markdown en la línea de comandos, o especificar el nombre del archivo. Es importante saber que podemos convertir tanto de Markdown a HTML como viceversa.
 
 * #### Por línea de comandos
+
 Escribiremos:
 ```bash
 $ pandoc
-````
+```
 lo que iniciará Pandoc y se quedará esperando a que introduzcamos algo por teclado. Podemos introducir algo en Markdown como:
 ```bash
 Hola *pandoc*!
@@ -51,6 +52,7 @@ $ pandoc -f html -t markdown
 y a continuación introducir nuestro código en HTML, presionar ctrl-D y obtendremos por pantalla el código Markdown.
 
 * #### Especificando un fichero
+
 Lo primero que debemos hacer es asegurarnos de que estamos en el directorio donde se encuentra el fichero Markdown. Para ello, podemos hacer uso del comando:
 ```bash
 $ pwd
