@@ -17,4 +17,7 @@ Tenemos dos alternativas para crear una pagina web con esta herramienta.
  Al hacer click en el desplegable, podremos ver las distintas opciones de las que disponemos, pudiendo elegir una nueva rama para alojar nuestro sitio:
 
  	![Desplegable](/markdown/img/desplegable.png)
+
+La última opción nos permite usar un directorio llamado "docs" para alojar todos los archivos de nuestro sitio, para asi poder tenerlos separados de nuestro código fuente de la librería, aplicación, etc.
+
  ___
